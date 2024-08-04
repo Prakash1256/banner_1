@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Ad Banner Management with Next.js and TypeScript
+Overview
+This project demonstrates a Next.js application with TypeScript integration, designed to manage and display ad banners. It features a homepage that displays a list of ad banners, each with an edit functionality using a bottom sheet. The application adheres to best practices for modular and reusable code.
 
-## Getting Started
+Features
+Display Ad Banners: Render a list of ad banners on the homepage using data from a JSON file.
+Edit Functionality: Each ad banner includes an edit icon that opens a bottom sheet for modifying banner details.
+Modular Components: The project is structured with reusable components for ad banners and bottom sheet editing.
+Prerequisites
+Node.js (v20.14.0 or later)
+npm or yarn
+Getting Started
+Clone the Repository
 
-First, run the development server:
+bash
+Copy code
+git clone https://github.com/your-repo/ad-banner-management.git
+cd my-next-app
+Install Dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+bash
+npm install
