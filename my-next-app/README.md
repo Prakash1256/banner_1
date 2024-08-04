@@ -12,6 +12,13 @@ This project demonstrates a Next.js application with TypeScript integration, des
 
 ## Installation & Getting Started
 
+
+**Clone the Repository**
+
+   ```bash
+   git clone https://github.com/Prakash1256/banner_1.git
+   ```
+
 # Create React App (CRA)
  First, ensure you have Node.js installed on your system. You can download and install it from Node.js website.
 Open your terminal.<br>
