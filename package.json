@@ -11,12 +11,8 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-<<<<<<< HEAD:package.json
-    "next": "^13.0.0"
-=======
     "next": "^14.2.5"
->>>>>>> 9d77ae9a3ccb4bc387cd27c1250973be74140c68:my-next-app/package.json
-  },
+},
   "devDependencies": {
     "typescript": "^5",
     "@types/node": "^20",
